@@ -32,7 +32,7 @@ const { File } = require("megajs");
 const ownerNumber = "94740534738"; // config.OWNER_NUM නැත්නම් කෙලින්ම number එක දාන්න
 
 //===================SESSION-AUTH============================
-}
+
 if (!fs.existsSync(__dirname + "/auth_info_baileys/creds.json")) {
   if (!config.SESSION_ID)
     return console.log("Please add your session to SESSION_ID env !!");
